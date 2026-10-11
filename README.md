@@ -1,26 +1,25 @@
-## Merhaba, ben Eyüb
+## Hi, I'm Eyüb
 
-Gömülü sistem mühendisiyim. Ankara'da [TECH-OHM](https://tech-ohm.com)'u kurdum, kart tasarlıyor ve üzerinde çalışan yazılımı yazıyorum. Aynı şeyleri eğitimde de anlatıyorum.
+I'm an embedded systems engineer and the founder of [TECH-OHM](https://tech-ohm.com), an embedded systems design company in Ankara. We build the hardware and software that run inside products: custom boards, firmware, power electronics, and the SaaS platforms, dashboards and AI technologies that connect them. We also teach embedded systems.
 
-İşin iki tarafını da seviyorum. Şematiği çizen kişi firmware'i de yazınca, kart tezgâhta çalışıp sahada reset atıyorsa nedenini bulmak çok daha kısa sürüyor.
+Our aim is to take an idea from the first schematic to series production, with hardware and software designed by the same team. That way problems get caught on the bench instead of in the field.
 
-### Neyle uğraşıyorum
+### What I work on
 
-- STM32 ağırlıklı çalışıyorum, ESP32 ve PIC de kullanıyorum.
-- Güç elektroniği: anahtarlamalı güç kaynakları, DC-DC dönüştürücüler, BLDC motor sürücüler, batarya yönetimi.
-- Haberleşme: CAN, Modbus, RS-485, LoRa.
-- PCB tasarımı ve mevcut kartların yeniden tasarımı.
+- Embedded hardware and firmware on STM32, ESP32, Nordic and ATtiny, with FreeRTOS, custom bootloaders and OTA updates
+- Industrial communication: CAN, Modbus over RS-485, Ethernet, LoRa, BLE
+- Power electronics and battery management: SMPS, DC-DC converters, BLDC and stepper drivers
+- IoT, dashboards and edge AI for connected devices
+- PCB design, 2 to 4+ layers, with EMC in mind
 
-### Burada ne var
+We work for defense, healthcare, agriculture, automotive and industry. I'm also a co-founder of Bolpet Plast Recycling, where I designed the machines and automation for a PET bottle recycling plant.
 
-- [stm32-freertos-smart-home](https://github.com/meyubcan/stm32-freertos-smart-home): STM32F407 üzerinde FreeRTOS ile çok görevli bir kontrol uygulaması. Kuyruk, mutex ve kesmeden göreve iş devri tek projede.
+### Projects here
 
-Sırada CAN ve Modbus örnekleri, bir de bootloader var. Eski projelerimi toparladıkça buraya ekleyeceğim.
+- [stm32-freertos-smart-home](https://github.com/meyubcan/stm32-freertos-smart-home): a multitasking control application on STM32F407 with FreeRTOS. Queues, mutexes and interrupt-to-task handoff in one project.
 
-### Ulaşmak için
+CAN, Modbus and bootloader examples are next. I'll add older projects as I clean them up.
+
+### Contact
 
 [tech-ohm.com](https://tech-ohm.com) · [LinkedIn](https://www.linkedin.com/in/m-ey%C3%BCb-can-3a3883199/) · info@tech-ohm.com
-
----
-
-Embedded systems engineer based in Ankara. I design boards and write the firmware that runs on them, mostly on STM32, with a lot of power electronics on the side. I also teach embedded systems at TECH-OHM.
