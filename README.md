@@ -16,9 +16,26 @@ We work for defense, healthcare, agriculture, automotive and industry. I'm also 
 
 ### Projects here
 
-- [stm32-freertos-smart-home](https://github.com/meyubcan/stm32-freertos-smart-home): a multitasking control application on STM32F407 with FreeRTOS. Queues, mutexes and interrupt-to-task handoff in one project.
+Everything below comes from work done at [TECH-OHM](https://tech-ohm.com). Each repository has a block diagram, a pin table and notes on how it works.
 
-CAN, Modbus and bootloader examples are next. I'll add older projects as I clean them up.
+**Power and motor control**
+- [stm32-4s-bms-home-automation](https://github.com/meyubcan/stm32-4s-bms-home-automation): 4S Li-ion monitoring, passive balancing, thermal protection and Bluetooth-controlled outputs on STM32F407.
+- [stm32-bldc-six-step-driver](https://github.com/meyubcan/stm32-bldc-six-step-driver): six-step commutation for a hall-sensored BLDC motor on STM32F103.
+- [stm32-tmc2209-uart](https://github.com/meyubcan/stm32-tmc2209-uart): configuring a TMC2209 stepper driver and reading its status over single-wire UART.
+- [stm32-input-capture-speed](https://github.com/meyubcan/stm32-input-capture-speed): frequency and RPM measurement with timer input capture.
+
+**Real-time and communication**
+- [stm32-freertos-smart-home](https://github.com/meyubcan/stm32-freertos-smart-home): a multitasking control application with FreeRTOS. Queues, mutexes and interrupt-to-task handoff in one project.
+- [stm32-nextion-hmi-uart](https://github.com/meyubcan/stm32-nextion-hmi-uart): UART framing and command parsing between a Nextion touch display and STM32.
+- [stm32-sim800l-sms-alarm](https://github.com/meyubcan/stm32-sim800l-sms-alarm): SMS alert over SIM800L when an analog value crosses a threshold.
+- [stm32-dht11-bluetooth](https://github.com/meyubcan/stm32-dht11-bluetooth): reading a DHT11 without a library and sending the data to a phone over HC-05.
+- [stm32-bluetooth-morse-lcd](https://github.com/meyubcan/stm32-bluetooth-morse-lcd): decoding Morse sent over Bluetooth and printing it on a character LCD.
+
+**Other**
+- [stm32-dot-matrix-printhead](https://github.com/meyubcan/stm32-dot-matrix-printhead): driving a 9-pin dot matrix print head directly from STM32.
+- [stm32-proteus-lm35-lcd](https://github.com/meyubcan/stm32-proteus-lm35-lcd): STM32 simulation in Proteus, with the steps to load firmware built in CubeIDE.
+
+The READMEs are in Turkish for now. Schematics and board photos are being added.
 
 ### Contact
 
