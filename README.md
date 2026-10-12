@@ -32,6 +32,9 @@ Everything below comes from work done at [TECH-OHM](https://tech-ohm.com). Each 
 - [stm32-bluetooth-morse-lcd](https://github.com/meyubcan/stm32-bluetooth-morse-lcd): decoding Morse sent over Bluetooth and printing it on a character LCD.
 
 **Other**
+- [stm32f0-tinyml-morse](https://github.com/meyubcan/stm32f0-tinyml-morse): a small neural network on a Cortex-M0 that decodes Morse from button presses, built with X-CUBE-AI.
+- [stm32f0-elevator-keypad](https://github.com/meyubcan/stm32f0-elevator-keypad): elevator call logic as a state machine with a 4x4 keypad.
+- [stm32f0-timer-uart-dac-adc](https://github.com/meyubcan/stm32f0-timer-uart-dac-adc): timers, UART, DAC and ADC driven entirely by interrupts.
 - [stm32-dot-matrix-printhead](https://github.com/meyubcan/stm32-dot-matrix-printhead): driving a 9-pin dot matrix print head directly from STM32.
 - [stm32-proteus-lm35-lcd](https://github.com/meyubcan/stm32-proteus-lm35-lcd): STM32 simulation in Proteus, with the steps to load firmware built in CubeIDE.
 
