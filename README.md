@@ -38,7 +38,7 @@ Everything below comes from work done at [TECH-OHM](https://tech-ohm.com). Each 
 - [stm32-dot-matrix-printhead](https://github.com/meyubcan/stm32-dot-matrix-printhead): driving a 9-pin dot matrix print head directly from STM32.
 - [stm32-proteus-lm35-lcd](https://github.com/meyubcan/stm32-proteus-lm35-lcd): STM32 simulation in Proteus, with the steps to load firmware built in CubeIDE.
 
-The READMEs are in Turkish for now. Schematics and board photos are being added.
+Every README is in English with a Turkish version next to it. Schematics and board photos are being added, starting with the BMS board.
 
 ### Contact
 
